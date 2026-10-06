@@ -7,6 +7,9 @@ import type { MatrixConfig } from "./types.js";
 export const DEFAULT_CONFIG: MatrixConfig = {
   homeserver: process.env.MATRIX_HOMESERVER || "",
   accessToken: process.env.MATRIX_ACCESS_TOKEN || "",
+  accessTokenPath:
+    process.env.MATRIX_ACCESS_TOKEN_PATH ||
+    path.join(getHomeDir(), ".config/matrix/token"),
   botUserId: process.env.MATRIX_BOT_USER_ID || "",
   allowedUsers: process.env.MATRIX_ALLOWED_USERS
     ? process.env.MATRIX_ALLOWED_USERS.split(",").map((u) => u.trim())
@@ -35,7 +38,10 @@ export function getMediaDir(): string {
 }
 
 export function loadConfig(): MatrixConfig {
-  const configPath = path.join(getHomeDir(), ".pi/agent/matrix.json");
+  const primaryPath = path.join(getHomeDir(), ".pi/agent/matrix.json");
+  const fallbackPath = path.join(getHomeDir(), ".config/matrix/config.json");
+  const configPath = fs.existsSync(primaryPath) ? primaryPath : fallbackPath;
+
   let cfg = { ...DEFAULT_CONFIG };
   if (fs.existsSync(configPath)) {
     try {
@@ -54,6 +60,36 @@ export function loadConfig(): MatrixConfig {
   if (!cfg.botUserId && process.env.MATRIX_BOT_USER_ID) {
     cfg.botUserId = process.env.MATRIX_BOT_USER_ID;
   }
+
+  // Check common secret paths
+  const candidateTokenPaths = [
+    cfg.accessTokenPath,
+    path.join(getHomeDir(), ".config/matrix/token"),
+    path.join(getHomeDir(), ".config/sops-nix/secrets/matrix-access-token"),
+    "/run/secrets/matrix-access-token",
+  ].filter(Boolean) as string[];
+
+  if (!cfg.accessToken) {
+    for (const p of candidateTokenPaths) {
+      if (fs.existsSync(p)) {
+        try {
+          const val = fs.readFileSync(p, "utf-8").trim();
+          if (val) {
+            cfg.accessToken = val;
+            break;
+          }
+        } catch {
+          // Ignore read errors
+        }
+      }
+    }
+  }
+
+  // If no access token is configured at all, do not autoStart to prevent error notifications
+  if (!cfg.accessToken) {
+    cfg.autoStart = false;
+  }
+
   return cfg;
 }
 

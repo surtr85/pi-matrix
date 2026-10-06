@@ -1,6 +1,7 @@
 export interface MatrixConfig {
   homeserver: string;
   accessToken: string;
+  accessTokenPath?: string;
   botUserId: string;
   allowedUsers: string[];
   autoStart: boolean;

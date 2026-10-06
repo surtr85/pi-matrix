@@ -110,6 +110,20 @@ export default function (pi: ExtensionAPI) {
     if (ctx) latestContext = ctx;
 
     if (!config.homeserver || !config.accessToken) {
+      const refreshed = loadConfig();
+      if (refreshed.accessToken) {
+        config.accessToken = refreshed.accessToken;
+        api.updateConfig(config);
+        progressReporter.updateConfig(config);
+      }
+      if (refreshed.homeserver) {
+        config.homeserver = refreshed.homeserver;
+        api.updateConfig(config);
+        progressReporter.updateConfig(config);
+      }
+    }
+
+    if (!config.homeserver || !config.accessToken) {
       if (ctx?.hasUI) {
         ctx.ui.notify(
           "Matrix Bridge: homeserver or accessToken is not configured in ~/.pi/agent/matrix.json",
