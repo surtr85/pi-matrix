@@ -6,7 +6,7 @@
   "4": "telegram/index.ts",
   "5": "compilerOptions",
   "6": "pi-matrix & pi-telegram",
-  "7": "MatrixQueue",
+  "7": "matrix/src/formatter.ts",
   "8": "BoundedEventCache",
   "10": "flake.nix"
 }

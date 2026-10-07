@@ -4,6 +4,7 @@
   "description": "Native, zero-token-overhead Matrix chat bridge extension for Pi Coding Agent",
   "main": "index.ts",
   "types": "index.ts",
+  "type": "module",
   "files": [
     "index.ts",
     "matrix",

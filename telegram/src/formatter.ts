@@ -1,8 +1,5 @@
 export function escapeHtml(str: string): string {
-  return str
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
 export function decodeHtmlEntities(str: string): string {
@@ -81,17 +78,29 @@ export function markdownToTelegramHtml(input: string): string {
   });
 
   // 6. Headers: #, ##, ###
-  text = text.replace(/^#{1,6}\s+(.*)$/gm, "\uE000TGHS\uE001$1\uE000TGHE\uE001");
+  text = text.replace(
+    /^#{1,6}\s+(.*)$/gm,
+    "\uE000TGHS\uE001$1\uE000TGHE\uE001",
+  );
 
   // 7. Escape remaining raw HTML special characters
   text = escapeHtml(text);
 
   // 8. Convert Header & Quote placeholders to actual tags
-  text = text.replace(/\uE000TGHS\uE001([\s\S]*?)\uE000TGHE\uE001/g, "<b>$1</b>");
-  text = text.replace(/\uE000TGQS\uE001([\s\S]*?)\uE000TGQE\uE001/g, "<blockquote>$1</blockquote>");
+  text = text.replace(
+    /\uE000TGHS\uE001([\s\S]*?)\uE000TGHE\uE001/g,
+    "<b>$1</b>",
+  );
+  text = text.replace(
+    /\uE000TGQS\uE001([\s\S]*?)\uE000TGQE\uE001/g,
+    "<blockquote>$1</blockquote>",
+  );
 
   // 9. Restore preserved entities
-  text = text.replace(/\uE000TGPE(\d+)\uE001/g, (_m, idx) => preservedEntities[Number(idx)]);
+  text = text.replace(
+    /\uE000TGPE(\d+)\uE001/g,
+    (_m, idx) => preservedEntities[Number(idx)],
+  );
 
   // 10. Markdown links: [title](url) (supporting http, https, file, etc.)
   const links: string[] = [];
@@ -105,9 +114,13 @@ export function markdownToTelegramHtml(input: string): string {
   );
 
   // 11. Markdown bold, italic, strikethrough
-  text = text.replace(/\*\*([^*\n]+)\*\*/g, "<b>$1</b>");
+  text = text.replace(/\*\*((?:[^*]|\*(?!\*))+?)\*\*/g, "<b>$1</b>");
+  text = text.replace(/__((?:[^_]|_(?!_))+?)__/g, "<b>$1</b>");
   text = text.replace(/(^|[^*])\*([^*\n\r]+)\*(?!\*)/g, "$1<i>$2</i>");
-  text = text.replace(/(^|[^_])_([^_\n\r]+)_(?!_)/g, "$1<i>$2</i>");
+  text = text.replace(
+    /(^|[^_A-Za-z0-9])_([^_\n\r]+)_(?![_A-Za-z0-9])/g,
+    "$1<i>$2</i>",
+  );
   text = text.replace(/~~([^~\n]+)~~/g, "<s>$1</s>");
 
   // 12. Markdown Table fallback for Telegram: Format tables cleanly as monospace preformatted blocks
@@ -117,7 +130,11 @@ export function markdownToTelegramHtml(input: string): string {
 
   const flushTable = () => {
     if (currentTable.length > 0) {
-      if (currentTable.length >= 2 && currentTable[0].includes("|") && currentTable[1].includes("|")) {
+      if (
+        currentTable.length >= 2 &&
+        currentTable[0].includes("|") &&
+        currentTable[1].includes("|")
+      ) {
         const tableText = currentTable.join("\n");
         processedBlocks.push(`<pre>${tableText}</pre>`);
       } else {
@@ -129,7 +146,11 @@ export function markdownToTelegramHtml(input: string): string {
 
   for (const line of rawLines) {
     const trimmed = line.trim();
-    if (trimmed.startsWith("|") && trimmed.endsWith("|") && trimmed.length > 2) {
+    if (
+      trimmed.startsWith("|") &&
+      trimmed.endsWith("|") &&
+      trimmed.length > 2
+    ) {
       currentTable.push(trimmed);
     } else {
       flushTable();
@@ -140,14 +161,26 @@ export function markdownToTelegramHtml(input: string): string {
   text = processedBlocks.join("\n");
 
   // 13. Restore preserved HTML tags
-  text = text.replace(/\uE000TGPT(\d+)\uE001/g, (_m, idx) => preservedTags[Number(idx)]);
+  text = text.replace(
+    /\uE000TGPT(\d+)\uE001/g,
+    (_m, idx) => preservedTags[Number(idx)],
+  );
 
   // 14. Restore links
-  text = text.replace(/\uE000TGLK(\d+)\uE001/g, (_m, idx) => links[Number(idx)]);
+  text = text.replace(
+    /\uE000TGLK(\d+)\uE001/g,
+    (_m, idx) => links[Number(idx)],
+  );
 
   // 15. Restore code blocks & inline code
-  text = text.replace(/\uE000TGCB(\d+)\uE001/g, (_m, idx) => codeBlocks[Number(idx)]);
-  text = text.replace(/\uE000TGIC(\d+)\uE001/g, (_m, idx) => inlineCodes[Number(idx)]);
+  text = text.replace(
+    /\uE000TGCB(\d+)\uE001/g,
+    (_m, idx) => codeBlocks[Number(idx)],
+  );
+  text = text.replace(
+    /\uE000TGIC(\d+)\uE001/g,
+    (_m, idx) => inlineCodes[Number(idx)],
+  );
 
   return text;
 }

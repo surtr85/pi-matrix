@@ -17,6 +17,71 @@
       "source_location": "L1"
     },
     {
+      "id": "matrix_src_queue_matrixqueue",
+      "label": "MatrixQueue",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": "matrixqueue",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "matrix_src_types_downloadedmedia",
+      "label": "DownloadedMedia",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": "downloadedmedia",
+      "source_file": "matrix/src/types.ts",
+      "source_location": "L23"
+    },
+    {
+      "id": "matrix_src_types_matrixconfig",
+      "label": "MatrixConfig",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": "matrixconfig",
+      "source_file": "matrix/src/types.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "matrix_src_types_pendingturn",
+      "label": "PendingTurn",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": "pendingturn",
+      "source_file": "matrix/src/types.ts",
+      "source_location": "L14"
+    },
+    {
+      "id": "matrix_src_types_uploadmediaresult",
+      "label": "UploadMediaResult",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": "uploadmediaresult",
+      "source_file": "matrix/src/types.ts",
+      "source_location": "L32"
+    },
+    {
       "id": "matrix_src_api_matrixapiclient",
       "label": "MatrixApiClient",
       "_callable": true,
@@ -41,45 +106,6 @@
       "norm_label": "matrixprogressreporter",
       "source_file": "matrix/src/progress.ts",
       "source_location": "L4"
-    },
-    {
-      "id": "matrix_src_types_downloadedmedia",
-      "label": "DownloadedMedia",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "downloadedmedia",
-      "source_file": "matrix/src/types.ts",
-      "source_location": "L22"
-    },
-    {
-      "id": "matrix_src_types_matrixconfig",
-      "label": "MatrixConfig",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "matrixconfig",
-      "source_file": "matrix/src/types.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "matrix_src_types_uploadmediaresult",
-      "label": "UploadMediaResult",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "uploadmediaresult",
-      "source_file": "matrix/src/types.ts",
-      "source_location": "L31"
     },
     {
       "id": "telegram_src_api_telegramapiclient",
@@ -186,30 +212,69 @@
       "source_location": "L11"
     },
     {
-      "id": "matrix_src_queue_matrixqueue",
-      "label": "MatrixQueue",
+      "id": "matrix_src_formatter_footnotedef",
+      "label": "FootnoteDef",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "MatrixQueue",
+      "community_name": "matrix/src/formatter.ts",
       "file_type": "code",
-      "norm_label": "matrixqueue",
-      "source_file": "matrix/src/queue.ts",
+      "norm_label": "footnotedef",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L85"
+    },
+    {
+      "id": "matrix_src_formatter_gfmalertconfig",
+      "label": "GfmAlertConfig",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "matrix/src/formatter.ts",
+      "file_type": "code",
+      "norm_label": "gfmalertconfig",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L424"
+    },
+    {
+      "id": "matrix_src_formatter_linkref",
+      "label": "LinkRef",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "matrix/src/formatter.ts",
+      "file_type": "code",
+      "norm_label": "linkref",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L79"
+    },
+    {
+      "id": "matrix_src_formatter_markdownparseroptions",
+      "label": "MarkdownParserOptions",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "matrix/src/formatter.ts",
+      "file_type": "code",
+      "norm_label": "markdownparseroptions",
+      "source_file": "matrix/src/formatter.ts",
       "source_location": "L3"
     },
     {
-      "id": "matrix_src_types_pendingturn",
-      "label": "PendingTurn",
+      "id": "matrix_src_formatter_parsercontext",
+      "label": "ParserContext",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "MatrixQueue",
+      "community_name": "matrix/src/formatter.ts",
       "file_type": "code",
-      "norm_label": "pendingturn",
-      "source_file": "matrix/src/types.ts",
-      "source_location": "L13"
+      "norm_label": "parsercontext",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L90"
     },
     {
       "id": "telegram_src_cache_boundedeventcache",
@@ -270,7 +335,7 @@
       "file_type": "code",
       "norm_label": "formatfilesize()",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L83"
+      "source_location": "L119"
     },
     {
       "id": "matrix_src_config_gethomedir",
@@ -282,7 +347,7 @@
       "file_type": "code",
       "norm_label": "gethomedir()",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L21"
+      "source_location": "L24"
     },
     {
       "id": "matrix_src_config_getmediadir",
@@ -294,7 +359,7 @@
       "file_type": "code",
       "norm_label": "getmediadir()",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L29"
+      "source_location": "L32"
     },
     {
       "id": "matrix_src_config_getsynctokenpath",
@@ -306,7 +371,7 @@
       "file_type": "code",
       "norm_label": "getsynctokenpath()",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L25"
+      "source_location": "L28"
     },
     {
       "id": "matrix_src_config_loadconfig",
@@ -318,7 +383,7 @@
       "file_type": "code",
       "norm_label": "loadconfig()",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L37"
+      "source_location": "L40"
     },
     {
       "id": "matrix_src_config_loadsavedsynctoken",
@@ -330,7 +395,7 @@
       "file_type": "code",
       "norm_label": "loadsavedsynctoken()",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L60"
+      "source_location": "L96"
     },
     {
       "id": "matrix_src_config_savesynctoken",
@@ -342,7 +407,7 @@
       "file_type": "code",
       "norm_label": "savesynctoken()",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L73"
+      "source_location": "L109"
     },
     {
       "id": "matrix_src_config_senddesktopnotification",
@@ -354,7 +419,127 @@
       "file_type": "code",
       "norm_label": "senddesktopnotification()",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L89"
+      "source_location": "L125"
+    },
+    {
+      "id": "matrix_src_queue_matrixqueue_clearactiveturn",
+      "label": ".clearActiveTurn()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": ".clearactiveturn()",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L47"
+    },
+    {
+      "id": "matrix_src_queue_matrixqueue_enqueue",
+      "label": ".enqueue()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": ".enqueue()",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L15"
+    },
+    {
+      "id": "matrix_src_queue_matrixqueue_getactiveturn",
+      "label": ".getActiveTurn()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": ".getactiveturn()",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L24"
+    },
+    {
+      "id": "matrix_src_queue_matrixqueue_getbyid",
+      "label": ".getById()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": ".getbyid()",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L32"
+    },
+    {
+      "id": "matrix_src_queue_matrixqueue_isempty",
+      "label": ".isEmpty()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": ".isempty()",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L11"
+    },
+    {
+      "id": "matrix_src_queue_matrixqueue_length",
+      "label": ".length()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": ".length()",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "matrix_src_queue_matrixqueue_matchestarget",
+      "label": ".matchesTarget()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": ".matchestarget()",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L56"
+    },
+    {
+      "id": "matrix_src_queue_matrixqueue_next",
+      "label": ".next()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": ".next()",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L19"
+    },
+    {
+      "id": "matrix_src_queue_matrixqueue_removeturn",
+      "label": ".removeTurn()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": ".removeturn()",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L37"
+    },
+    {
+      "id": "matrix_src_queue_matrixqueue_setactiveturn",
+      "label": ".setActiveTurn()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": ".setactiveturn()",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L28"
     },
     {
       "id": "matrix_src_api_matrixapiclient_chunkmessage",
@@ -582,18 +767,6 @@
       "file_type": "code",
       "norm_label": "cleanassistanttext()",
       "source_file": "matrix/src/formatter.ts",
-      "source_location": "L3"
-    },
-    {
-      "id": "matrix_src_formatter_escapehtml",
-      "label": "escapeHtml()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "escapehtml()",
-      "source_file": "matrix/src/formatter.ts",
       "source_location": "L9"
     },
     {
@@ -606,43 +779,7 @@
       "file_type": "code",
       "norm_label": "getmimetype()",
       "source_file": "matrix/src/formatter.ts",
-      "source_location": "L34"
-    },
-    {
-      "id": "matrix_src_formatter_ispersian",
-      "label": "isPersian()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "ispersian()",
-      "source_file": "matrix/src/formatter.ts",
-      "source_location": "L18"
-    },
-    {
-      "id": "matrix_src_formatter_markdowntomatrixhtml",
-      "label": "markdownToMatrixHtml()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "markdowntomatrixhtml()",
-      "source_file": "matrix/src/formatter.ts",
-      "source_location": "L127"
-    },
-    {
-      "id": "matrix_src_formatter_rendermarkdowntable",
-      "label": "renderMarkdownTable()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "rendermarkdowntable()",
-      "source_file": "matrix/src/formatter.ts",
-      "source_location": "L71"
+      "source_location": "L41"
     },
     {
       "id": "matrix_src_progress_matrixprogressreporter_cleanup",
@@ -751,6 +888,18 @@
       "norm_label": ".updateconfig()",
       "source_file": "matrix/src/progress.ts",
       "source_location": "L26"
+    },
+    {
+      "id": "matrix_src_queue_matrixqueue_clear",
+      "label": ".clear()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "MatrixApiClient",
+      "file_type": "code",
+      "norm_label": ".clear()",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L51"
     },
     {
       "id": "telegram_src_api_telegramapiclient_acknowledgeoffset",
@@ -871,18 +1020,6 @@
       "norm_label": ".sendmediaauto()",
       "source_file": "telegram/src/api.ts",
       "source_location": "L237"
-    },
-    {
-      "id": "telegram_src_api_telegramapiclient_sendmessage",
-      "label": ".sendMessage()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TelegramApiClient",
-      "file_type": "code",
-      "norm_label": ".sendmessage()",
-      "source_file": "telegram/src/api.ts",
-      "source_location": "L133"
     },
     {
       "id": "telegram_src_api_telegramapiclient_sendphoto",
@@ -1029,6 +1166,18 @@
       "source_location": "L46"
     },
     {
+      "id": "telegram_src_api_telegramapiclient_sendmessage",
+      "label": ".sendMessage()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "telegram/index.ts",
+      "file_type": "code",
+      "norm_label": ".sendmessage()",
+      "source_file": "telegram/src/api.ts",
+      "source_location": "L133"
+    },
+    {
       "id": "telegram_src_commands_getquickactionmarkup",
       "label": "getQuickActionMarkup()",
       "_callable": true,
@@ -1146,7 +1295,7 @@
       "file_type": "code",
       "norm_label": "cleanassistanttext()",
       "source_file": "telegram/src/formatter.ts",
-      "source_location": "L21"
+      "source_location": "L18"
     },
     {
       "id": "telegram_src_formatter_decodehtmlentities",
@@ -1158,7 +1307,7 @@
       "file_type": "code",
       "norm_label": "decodehtmlentities()",
       "source_file": "telegram/src/formatter.ts",
-      "source_location": "L8"
+      "source_location": "L5"
     },
     {
       "id": "telegram_src_formatter_escapehtml",
@@ -1182,7 +1331,7 @@
       "file_type": "code",
       "norm_label": "markdowntotelegramhtml()",
       "source_file": "telegram/src/formatter.ts",
-      "source_location": "L32"
+      "source_location": "L29"
     },
     {
       "id": "telegram_src_formatter_striphtmltoplaintext",
@@ -1194,7 +1343,7 @@
       "file_type": "code",
       "norm_label": "striphtmltoplaintext()",
       "source_file": "telegram/src/formatter.ts",
-      "source_location": "L17"
+      "source_location": "L14"
     },
     {
       "id": "telegram_src_queue_telegramqueue_clearactiveturn",
@@ -1317,136 +1466,100 @@
       "source_location": "L24"
     },
     {
-      "id": "matrix_src_queue_matrixqueue_clear",
-      "label": ".clear()",
+      "id": "matrix_src_formatter_escapeattr",
+      "label": "escapeAttr()",
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "MatrixQueue",
+      "community_name": "matrix/src/formatter.ts",
       "file_type": "code",
-      "norm_label": ".clear()",
-      "source_file": "matrix/src/queue.ts",
-      "source_location": "L51"
+      "norm_label": "escapeattr()",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L99"
     },
     {
-      "id": "matrix_src_queue_matrixqueue_clearactiveturn",
-      "label": ".clearActiveTurn()",
+      "id": "matrix_src_formatter_escapehtml",
+      "label": "escapeHtml()",
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "MatrixQueue",
+      "community_name": "matrix/src/formatter.ts",
       "file_type": "code",
-      "norm_label": ".clearactiveturn()",
-      "source_file": "matrix/src/queue.ts",
-      "source_location": "L47"
-    },
-    {
-      "id": "matrix_src_queue_matrixqueue_enqueue",
-      "label": ".enqueue()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "MatrixQueue",
-      "file_type": "code",
-      "norm_label": ".enqueue()",
-      "source_file": "matrix/src/queue.ts",
+      "norm_label": "escapehtml()",
+      "source_file": "matrix/src/formatter.ts",
       "source_location": "L15"
     },
     {
-      "id": "matrix_src_queue_matrixqueue_getactiveturn",
-      "label": ".getActiveTurn()",
+      "id": "matrix_src_formatter_extractcodespans",
+      "label": "extractCodeSpans()",
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "MatrixQueue",
+      "community_name": "matrix/src/formatter.ts",
       "file_type": "code",
-      "norm_label": ".getactiveturn()",
-      "source_file": "matrix/src/queue.ts",
+      "norm_label": "extractcodespans()",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L107"
+    },
+    {
+      "id": "matrix_src_formatter_ispersian",
+      "label": "isPersian()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "matrix/src/formatter.ts",
+      "file_type": "code",
+      "norm_label": "ispersian()",
+      "source_file": "matrix/src/formatter.ts",
       "source_location": "L24"
     },
     {
-      "id": "matrix_src_queue_matrixqueue_getbyid",
-      "label": ".getById()",
+      "id": "matrix_src_formatter_markdowntomatrixhtml",
+      "label": "markdownToMatrixHtml()",
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "MatrixQueue",
+      "community_name": "matrix/src/formatter.ts",
       "file_type": "code",
-      "norm_label": ".getbyid()",
-      "source_file": "matrix/src/queue.ts",
-      "source_location": "L32"
+      "norm_label": "markdowntomatrixhtml()",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L822"
     },
     {
-      "id": "matrix_src_queue_matrixqueue_isempty",
-      "label": ".isEmpty()",
+      "id": "matrix_src_formatter_parsemarkdownblocks",
+      "label": "parseMarkdownBlocks()",
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "MatrixQueue",
+      "community_name": "matrix/src/formatter.ts",
       "file_type": "code",
-      "norm_label": ".isempty()",
-      "source_file": "matrix/src/queue.ts",
-      "source_location": "L11"
+      "norm_label": "parsemarkdownblocks()",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L479"
     },
     {
-      "id": "matrix_src_queue_matrixqueue_length",
-      "label": ".length()",
+      "id": "matrix_src_formatter_renderinlinemarkdown",
+      "label": "renderInlineMarkdown()",
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "MatrixQueue",
+      "community_name": "matrix/src/formatter.ts",
       "file_type": "code",
-      "norm_label": ".length()",
-      "source_file": "matrix/src/queue.ts",
-      "source_location": "L7"
+      "norm_label": "renderinlinemarkdown()",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L166"
     },
     {
-      "id": "matrix_src_queue_matrixqueue_matchestarget",
-      "label": ".matchesTarget()",
+      "id": "matrix_src_formatter_rendermarkdowntable",
+      "label": "renderMarkdownTable()",
       "_callable": true,
       "_origin": "ast",
       "community": 7,
-      "community_name": "MatrixQueue",
+      "community_name": "matrix/src/formatter.ts",
       "file_type": "code",
-      "norm_label": ".matchestarget()",
-      "source_file": "matrix/src/queue.ts",
-      "source_location": "L56"
-    },
-    {
-      "id": "matrix_src_queue_matrixqueue_next",
-      "label": ".next()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "MatrixQueue",
-      "file_type": "code",
-      "norm_label": ".next()",
-      "source_file": "matrix/src/queue.ts",
-      "source_location": "L19"
-    },
-    {
-      "id": "matrix_src_queue_matrixqueue_removeturn",
-      "label": ".removeTurn()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "MatrixQueue",
-      "file_type": "code",
-      "norm_label": ".removeturn()",
-      "source_file": "matrix/src/queue.ts",
-      "source_location": "L37"
-    },
-    {
-      "id": "matrix_src_queue_matrixqueue_setactiveturn",
-      "label": ".setActiveTurn()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "MatrixQueue",
-      "file_type": "code",
-      "norm_label": ".setactiveturn()",
-      "source_file": "matrix/src/queue.ts",
-      "source_location": "L28"
+      "norm_label": "rendermarkdowntable()",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L345"
     },
     {
       "id": "telegram_src_cache_boundedeventcache_add",
@@ -1504,7 +1617,7 @@
       "file_type": "code",
       "norm_label": "author",
       "source_file": "package.json",
-      "source_location": "L15"
+      "source_location": "L16"
     },
     {
       "id": "package_bugs",
@@ -1515,7 +1628,7 @@
       "file_type": "code",
       "norm_label": "bugs",
       "source_file": "package.json",
-      "source_location": "L22"
+      "source_location": "L23"
     },
     {
       "id": "package_bugs_url",
@@ -1526,7 +1639,7 @@
       "file_type": "code",
       "norm_label": "url",
       "source_file": "package.json",
-      "source_location": "L23"
+      "source_location": "L24"
     },
     {
       "id": "package_description",
@@ -1548,7 +1661,7 @@
       "file_type": "code",
       "norm_label": "devdependencies",
       "source_file": "package.json",
-      "source_location": "L36"
+      "source_location": "L37"
     },
     {
       "id": "package_devdependencies_types_node",
@@ -1559,7 +1672,7 @@
       "file_type": "code",
       "norm_label": "@types/node",
       "source_file": "package.json",
-      "source_location": "L37"
+      "source_location": "L38"
     },
     {
       "id": "package_devdependencies_typescript",
@@ -1570,7 +1683,7 @@
       "file_type": "code",
       "norm_label": "typescript",
       "source_file": "package.json",
-      "source_location": "L38"
+      "source_location": "L39"
     },
     {
       "id": "package_files",
@@ -1581,7 +1694,7 @@
       "file_type": "code",
       "norm_label": "files",
       "source_file": "package.json",
-      "source_location": "L7"
+      "source_location": "L8"
     },
     {
       "id": "package_homepage",
@@ -1592,7 +1705,7 @@
       "file_type": "code",
       "norm_label": "homepage",
       "source_file": "package.json",
-      "source_location": "L17"
+      "source_location": "L18"
     },
     {
       "id": "package_keywords",
@@ -1603,7 +1716,7 @@
       "file_type": "code",
       "norm_label": "keywords",
       "source_file": "package.json",
-      "source_location": "L25"
+      "source_location": "L26"
     },
     {
       "id": "package_license",
@@ -1614,7 +1727,7 @@
       "file_type": "code",
       "norm_label": "license",
       "source_file": "package.json",
-      "source_location": "L16"
+      "source_location": "L17"
     },
     {
       "id": "package_main",
@@ -1647,7 +1760,7 @@
       "file_type": "code",
       "norm_label": "peerdependencies",
       "source_file": "package.json",
-      "source_location": "L33"
+      "source_location": "L34"
     },
     {
       "id": "package_peerdependencies_earendil_works_pi_coding_agent",
@@ -1658,7 +1771,7 @@
       "file_type": "code",
       "norm_label": "@earendil-works/pi-coding-agent",
       "source_file": "package.json",
-      "source_location": "L34"
+      "source_location": "L35"
     },
     {
       "id": "package_repository",
@@ -1669,7 +1782,7 @@
       "file_type": "code",
       "norm_label": "repository",
       "source_file": "package.json",
-      "source_location": "L18"
+      "source_location": "L19"
     },
     {
       "id": "package_repository_type",
@@ -1680,7 +1793,7 @@
       "file_type": "code",
       "norm_label": "type",
       "source_file": "package.json",
-      "source_location": "L19"
+      "source_location": "L20"
     },
     {
       "id": "package_repository_url",
@@ -1691,7 +1804,18 @@
       "file_type": "code",
       "norm_label": "url",
       "source_file": "package.json",
-      "source_location": "L20"
+      "source_location": "L21"
+    },
+    {
+      "id": "package_type",
+      "label": "type",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "type",
+      "source_file": "package.json",
+      "source_location": "L7"
     },
     {
       "id": "package_types",
@@ -1724,7 +1848,7 @@
       "file_type": "concept",
       "norm_label": "@earendil-works/pi-coding-agent",
       "source_file": "package.json",
-      "source_location": "L34"
+      "source_location": "L35"
     },
     {
       "id": "package_json_ref_index_ts",
@@ -1735,7 +1859,7 @@
       "file_type": "concept",
       "norm_label": "index.ts",
       "source_file": "package.json",
-      "source_location": "L7"
+      "source_location": "L8"
     },
     {
       "id": "ref_ai_agent",
@@ -1746,7 +1870,7 @@
       "file_type": "concept",
       "norm_label": "ai-agent",
       "source_file": "package.json",
-      "source_location": "L25"
+      "source_location": "L26"
     },
     {
       "id": "ref_assets",
@@ -1757,7 +1881,7 @@
       "file_type": "concept",
       "norm_label": "assets",
       "source_file": "package.json",
-      "source_location": "L7"
+      "source_location": "L8"
     },
     {
       "id": "ref_coding_agent",
@@ -1768,7 +1892,7 @@
       "file_type": "concept",
       "norm_label": "coding-agent",
       "source_file": "package.json",
-      "source_location": "L25"
+      "source_location": "L26"
     },
     {
       "id": "ref_license",
@@ -1779,7 +1903,7 @@
       "file_type": "concept",
       "norm_label": "license",
       "source_file": "package.json",
-      "source_location": "L7"
+      "source_location": "L8"
     },
     {
       "id": "ref_matrix",
@@ -1790,7 +1914,7 @@
       "file_type": "concept",
       "norm_label": "matrix",
       "source_file": "package.json",
-      "source_location": "L7"
+      "source_location": "L8"
     },
     {
       "id": "ref_matrix_bridge",
@@ -1801,7 +1925,7 @@
       "file_type": "concept",
       "norm_label": "matrix-bridge",
       "source_file": "package.json",
-      "source_location": "L25"
+      "source_location": "L26"
     },
     {
       "id": "ref_pi_coding_agent",
@@ -1812,7 +1936,7 @@
       "file_type": "concept",
       "norm_label": "pi-coding-agent",
       "source_file": "package.json",
-      "source_location": "L25"
+      "source_location": "L26"
     },
     {
       "id": "ref_pi_extension",
@@ -1823,7 +1947,7 @@
       "file_type": "concept",
       "norm_label": "pi-extension",
       "source_file": "package.json",
-      "source_location": "L25"
+      "source_location": "L26"
     },
     {
       "id": "ref_readme_md",
@@ -1834,7 +1958,7 @@
       "file_type": "concept",
       "norm_label": "readme.md",
       "source_file": "package.json",
-      "source_location": "L7"
+      "source_location": "L8"
     },
     {
       "id": "ref_telegram",
@@ -1845,7 +1969,7 @@
       "file_type": "concept",
       "norm_label": "telegram",
       "source_file": "package.json",
-      "source_location": "L7"
+      "source_location": "L8"
     },
     {
       "id": "types_node",
@@ -1856,7 +1980,7 @@
       "file_type": "concept",
       "norm_label": "@types/node",
       "source_file": "package.json",
-      "source_location": "L37"
+      "source_location": "L38"
     },
     {
       "id": "typescript",
@@ -1867,7 +1991,7 @@
       "file_type": "concept",
       "norm_label": "typescript",
       "source_file": "package.json",
-      "source_location": "L38"
+      "source_location": "L39"
     },
     {
       "id": "index",
@@ -1892,6 +2016,17 @@
       "source_location": "L1"
     },
     {
+      "id": "matrix_src_api",
+      "label": "matrix/src/api.ts",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": "matrix/src/api.ts",
+      "source_file": "matrix/src/api.ts",
+      "source_location": "L1"
+    },
+    {
       "id": "matrix_src_cache",
       "label": "matrix/src/cache.ts",
       "_origin": "ast",
@@ -1900,6 +2035,17 @@
       "file_type": "code",
       "norm_label": "matrix/src/cache.ts",
       "source_file": "matrix/src/cache.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "matrix_src_commands",
+      "label": "matrix/src/commands.ts",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": "matrix/src/commands.ts",
+      "source_file": "matrix/src/commands.ts",
       "source_location": "L1"
     },
     {
@@ -1923,6 +2069,39 @@
       "norm_label": "default_config",
       "source_file": "matrix/src/config.ts",
       "source_location": "L7"
+    },
+    {
+      "id": "matrix_src_progress",
+      "label": "matrix/src/progress.ts",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": "matrix/src/progress.ts",
+      "source_file": "matrix/src/progress.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "matrix_src_queue",
+      "label": "matrix/src/queue.ts",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": "matrix/src/queue.ts",
+      "source_file": "matrix/src/queue.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "matrix_src_types",
+      "label": "matrix/src/types.ts",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "matrix/index.ts",
+      "file_type": "code",
+      "norm_label": "matrix/src/types.ts",
+      "source_file": "matrix/src/types.ts",
+      "source_location": "L1"
     },
     {
       "id": "flake",
@@ -1978,72 +2157,6 @@
       "norm_label": "pkgs.mkshell",
       "source_file": "flake.nix",
       "source_location": "L53"
-    },
-    {
-      "id": "matrix_src_api",
-      "label": "matrix/src/api.ts",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "matrix/src/api.ts",
-      "source_file": "matrix/src/api.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "matrix_src_commands",
-      "label": "matrix/src/commands.ts",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "matrix/src/commands.ts",
-      "source_file": "matrix/src/commands.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "matrix_src_formatter",
-      "label": "matrix/src/formatter.ts",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "matrix/src/formatter.ts",
-      "source_file": "matrix/src/formatter.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "matrix_src_progress",
-      "label": "matrix/src/progress.ts",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "matrix/src/progress.ts",
-      "source_file": "matrix/src/progress.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "matrix_src_types",
-      "label": "matrix/src/types.ts",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "MatrixApiClient",
-      "file_type": "code",
-      "norm_label": "matrix/src/types.ts",
-      "source_file": "matrix/src/types.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "telegram_src_progress",
-      "label": "telegram/src/progress.ts",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "TelegramApiClient",
-      "file_type": "code",
-      "norm_label": "telegram/src/progress.ts",
-      "source_file": "telegram/src/progress.ts",
-      "source_location": "L1"
     },
     {
       "id": "telegram_index",
@@ -2109,6 +2222,17 @@
       "file_type": "code",
       "norm_label": "telegram/src/formatter.ts",
       "source_file": "telegram/src/formatter.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "telegram_src_progress",
+      "label": "telegram/src/progress.ts",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "telegram/index.ts",
+      "file_type": "code",
+      "norm_label": "telegram/src/progress.ts",
+      "source_file": "telegram/src/progress.ts",
       "source_location": "L1"
     },
     {
@@ -2523,15 +2647,26 @@
       "source_location": "L111"
     },
     {
-      "id": "matrix_src_queue",
-      "label": "matrix/src/queue.ts",
+      "id": "matrix_src_formatter",
+      "label": "matrix/src/formatter.ts",
       "_origin": "ast",
       "community": 7,
-      "community_name": "MatrixQueue",
+      "community_name": "matrix/src/formatter.ts",
       "file_type": "code",
-      "norm_label": "matrix/src/queue.ts",
-      "source_file": "matrix/src/queue.ts",
+      "norm_label": "matrix/src/formatter.ts",
+      "source_file": "matrix/src/formatter.ts",
       "source_location": "L1"
+    },
+    {
+      "id": "matrix_src_formatter_gfm_alerts",
+      "label": "GFM_ALERTS",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "matrix/src/formatter.ts",
+      "file_type": "code",
+      "norm_label": "gfm_alerts",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L433"
     },
     {
       "id": "telegram_src_cache",
@@ -2807,7 +2942,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L30",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -2819,7 +2954,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L26",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -2831,7 +2966,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L38",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -2843,7 +2978,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L61",
+      "source_location": "L97",
       "weight": 1.0
     },
     {
@@ -2855,7 +2990,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "matrix/src/config.ts",
-      "source_location": "L76",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter_escapeattr",
+      "target": "matrix_src_formatter_escapehtml",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L100",
       "weight": 1.0
     },
     {
@@ -2867,23 +3014,71 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "matrix/src/formatter.ts",
-      "source_location": "L133",
+      "source_location": "L841",
       "weight": 1.0
     },
     {
       "source": "matrix_src_formatter_markdowntomatrixhtml",
-      "target": "matrix_src_formatter_rendermarkdowntable",
+      "target": "matrix_src_formatter_parsemarkdownblocks",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "matrix/src/formatter.ts",
-      "source_location": "L171",
+      "source_location": "L881",
       "weight": 1.0
     },
     {
       "source": "matrix_src_formatter_markdowntomatrixhtml",
+      "target": "matrix_src_formatter_renderinlinemarkdown",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L890",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter_parsemarkdownblocks",
+      "target": "matrix_src_formatter_escapehtml",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L520",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter_parsemarkdownblocks",
+      "target": "matrix_src_formatter_escapeattr",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L541",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter_parsemarkdownblocks",
+      "target": "matrix_src_formatter_renderinlinemarkdown",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L566",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter_parsemarkdownblocks",
       "target": "matrix_src_formatter_ispersian",
       "relation": "calls",
       "_origin": "ast",
@@ -2891,7 +3086,67 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "matrix/src/formatter.ts",
-      "source_location": "L227",
+      "source_location": "L574",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter_parsemarkdownblocks",
+      "target": "matrix_src_formatter_rendermarkdowntable",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L623",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter_renderinlinemarkdown",
+      "target": "matrix_src_formatter_extractcodespans",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter_renderinlinemarkdown",
+      "target": "matrix_src_formatter_escapehtml",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter_renderinlinemarkdown",
+      "target": "matrix_src_formatter_escapeattr",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter_rendermarkdowntable",
+      "target": "matrix_src_formatter_extractcodespans",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L353",
       "weight": 1.0
     },
     {
@@ -2903,7 +3158,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "matrix/src/formatter.ts",
-      "source_location": "L99",
+      "source_location": "L388",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter_rendermarkdowntable",
+      "target": "matrix_src_formatter_renderinlinemarkdown",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L398",
       "weight": 1.0
     },
     {
@@ -3251,7 +3518,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "telegram/src/formatter.ts",
-      "source_location": "L39",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -3263,7 +3530,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "telegram/src/formatter.ts",
-      "source_location": "L18",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -3383,7 +3650,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3395,7 +3662,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3407,7 +3674,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3419,7 +3686,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3431,7 +3698,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3443,7 +3710,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3455,7 +3722,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -3467,7 +3734,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -3479,7 +3746,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -3491,7 +3758,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -3503,7 +3770,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -3515,7 +3782,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -3935,7 +4202,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L37",
+      "source_location": "L38",
       "weight": 1.0
     },
     {
@@ -3947,7 +4214,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L38",
+      "source_location": "L39",
       "weight": 1.0
     },
     {
@@ -3959,7 +4226,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L34",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -5029,13 +5296,46 @@
     },
     {
       "source": "matrix_src_config",
+      "target": "matrix_src_config_savesynctoken",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/config.ts",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_config",
+      "target": "matrix_src_config_formatfilesize",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/config.ts",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_config",
+      "target": "matrix_src_config_senddesktopnotification",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/config.ts",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_config",
       "target": "matrix_src_config_gethomedir",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "matrix/src/config.ts",
-      "source_location": "L21",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -5046,7 +5346,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "matrix/src/config.ts",
-      "source_location": "L25",
+      "source_location": "L28",
       "weight": 1.0
     },
     {
@@ -5057,7 +5357,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "matrix/src/config.ts",
-      "source_location": "L29",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -5068,18 +5368,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "matrix/src/config.ts",
-      "source_location": "L37",
-      "weight": 1.0
-    },
-    {
-      "source": "matrix_src_config",
-      "target": "matrix_src_config_loadsavedsynctoken",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "matrix/src/config.ts",
-      "source_location": "L60",
+      "source_location": "L40",
       "weight": 1.0
     },
     {
@@ -5095,90 +5384,24 @@
     },
     {
       "source": "matrix_src_config",
-      "target": "matrix_src_config_savesynctoken",
+      "target": "matrix_src_config_loadsavedsynctoken",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "matrix/src/config.ts",
-      "source_location": "L73",
-      "weight": 1.0
-    },
-    {
-      "source": "matrix_src_config",
-      "target": "matrix_src_config_formatfilesize",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "matrix/src/config.ts",
-      "source_location": "L83",
-      "weight": 1.0
-    },
-    {
-      "source": "matrix_src_config",
-      "target": "matrix_src_config_senddesktopnotification",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "matrix/src/config.ts",
-      "source_location": "L89",
+      "source_location": "L96",
       "weight": 1.0
     },
     {
       "source": "matrix_src_formatter",
-      "target": "matrix_src_formatter_markdowntomatrixhtml",
+      "target": "matrix_src_formatter_extractcodespans",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "matrix/src/formatter.ts",
-      "source_location": "L127",
-      "weight": 1.0
-    },
-    {
-      "source": "matrix_src_formatter",
-      "target": "matrix_src_formatter_ispersian",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "matrix/src/formatter.ts",
-      "source_location": "L18",
-      "weight": 1.0
-    },
-    {
-      "source": "matrix_src_formatter",
-      "target": "matrix_src_formatter_cleanassistanttext",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "matrix/src/formatter.ts",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "matrix_src_formatter",
-      "target": "matrix_src_formatter_getmimetype",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "matrix/src/formatter.ts",
-      "source_location": "L34",
-      "weight": 1.0
-    },
-    {
-      "source": "matrix_src_formatter",
-      "target": "matrix_src_formatter_rendermarkdowntable",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "matrix/src/formatter.ts",
-      "source_location": "L71",
+      "source_location": "L107",
       "weight": 1.0
     },
     {
@@ -5189,7 +5412,161 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "matrix/src/formatter.ts",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_renderinlinemarkdown",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_ispersian",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_markdownparseroptions",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_rendermarkdowntable",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L345",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_getmimetype",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_gfmalertconfig",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L424",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_gfm_alerts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L433",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_parsemarkdownblocks",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L479",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_linkref",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_markdowntomatrixhtml",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L822",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_footnotedef",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_cleanassistanttext",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
       "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_parsercontext",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "matrix_src_formatter",
+      "target": "matrix_src_formatter_escapeattr",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "matrix/src/formatter.ts",
+      "source_location": "L99",
       "weight": 1.0
     },
     {
@@ -5233,7 +5610,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "matrix/src/types.ts",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -5244,7 +5621,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "matrix/src/types.ts",
-      "source_location": "L22",
+      "source_location": "L23",
       "weight": 1.0
     },
     {
@@ -5255,7 +5632,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "matrix/src/types.ts",
-      "source_location": "L31",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -5266,7 +5643,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L15",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -5277,7 +5654,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L16",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -5288,7 +5665,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L17",
+      "source_location": "L18",
       "weight": 1.0
     },
     {
@@ -5299,7 +5676,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L18",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -5321,7 +5698,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L22",
+      "source_location": "L23",
       "weight": 1.0
     },
     {
@@ -5332,7 +5709,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -5354,7 +5731,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L33",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -5365,7 +5742,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L36",
+      "source_location": "L37",
       "weight": 1.0
     },
     {
@@ -5403,13 +5780,24 @@
     },
     {
       "source": "package",
-      "target": "package_files",
+      "target": "package_type",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
       "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "package_files",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -5420,7 +5808,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L23",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -5431,7 +5819,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L37",
+      "source_location": "L38",
       "weight": 1.0
     },
     {
@@ -5442,7 +5830,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L38",
+      "source_location": "L39",
       "weight": 1.0
     },
     {
@@ -5453,7 +5841,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L34",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -5464,7 +5852,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L19",
+      "source_location": "L20",
       "weight": 1.0
     },
     {
@@ -5475,7 +5863,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L20",
+      "source_location": "L21",
       "weight": 1.0
     },
     {
@@ -5794,7 +6182,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "telegram/src/formatter.ts",
-      "source_location": "L17",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -5805,7 +6193,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "telegram/src/formatter.ts",
-      "source_location": "L21",
+      "source_location": "L18",
       "weight": 1.0
     },
     {
@@ -5816,7 +6204,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "telegram/src/formatter.ts",
-      "source_location": "L32",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -5827,7 +6215,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "telegram/src/formatter.ts",
-      "source_location": "L8",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -7102,5 +7490,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9b092013fe10399ca78c1f3d6e1d714d350db600"
+  "built_at_commit": "cfb1b4795d9f76b2ecb1ba831c731633ae055196"
 }
