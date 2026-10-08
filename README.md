@@ -1,6 +1,9 @@
 <div align="center">
 
-![pi-bridges Banner](assets/banner.jpg)
+<picture>
+  <source type="image/svg+xml" srcset="assets/banner.svg">
+  <img src="assets/banner.png" alt="pi-bridges Banner" width="100%">
+</picture>
 
 # pi-matrix & pi-telegram
 
